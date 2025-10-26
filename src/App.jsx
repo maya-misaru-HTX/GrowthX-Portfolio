@@ -168,7 +168,7 @@ function App() {
       <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-md">
         <nav className="container-custom">
           <div className="flex items-center justify-between py-4">
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-4">
               <a
                 href="#about-me"
                 className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
