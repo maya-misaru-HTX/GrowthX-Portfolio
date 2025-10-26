@@ -255,7 +255,7 @@ function App() {
                     <h3 className="text-lg font-semibold">Certifications</h3>
                   </div>
                   <p className="text-base text-gray-700 leading-relaxed">
-                    Notion Admin, Salesforce Admin
+                    Notion, HubSpot, and Salesforce Admin
                   </p>
                 </div>
               </div>
