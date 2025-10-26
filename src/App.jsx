@@ -222,12 +222,6 @@ function App() {
                 activeSection === 'work-sample' ? 'w-full' : 'w-0 group-hover:w-full'
               }`}></span>
             </a>
-            <a
-              href="#work-sample"
-              className="px-6 py-2 bg-[#fccc00] text-gray-900 font-semibold rounded-full hover:bg-[#d9a800] transition-all duration-300 hover:shadow-lg"
-            >
-              View Work Samples
-            </a>
           </div>
         </nav>
       </header>
@@ -298,10 +292,12 @@ function App() {
                   LinkedIn
                 </a>
                 <a
-                  href="#work-sample"
+                  href="/Misaki-Funada_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-2.5 bg-white text-gray-900 font-medium rounded-full hover:bg-gray-50 transition-all border-2 border-gray-300"
                 >
-                  View Work Samples
+                  Resume
                 </a>
               </div>
             </div>
