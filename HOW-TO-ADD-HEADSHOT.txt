@@ -1,0 +1,43 @@
+# Adding Your Headshot - Step by Step
+
+Your portfolio is already configured to show your headshot in the circular frame.
+You just need to save your cherry blossom photo to the right location!
+
+## METHOD 1: Using Finder (Easiest)
+
+1. Save the cherry blossom photo from this chat to your Desktop
+   (Right-click the image → Save Image As → Save to Desktop)
+
+2. Open Finder and navigate to:
+   Desktop/growthx-portfolio/public
+
+3. Drag your saved photo into the 'public' folder
+
+4. Rename it to: headshot.jpg
+   (Make sure it's exactly: headshot.jpg, not headshot.JPG or headshot.jpeg)
+
+5. Refresh your browser at http://localhost:5173/
+   Your photo should now appear in the circular frame!
+
+## METHOD 2: Using Terminal
+
+If you saved the photo to your Desktop as "cherry-blossom.jpg":
+
+cd ~/Desktop/growthx-portfolio/public
+cp ~/Desktop/cherry-blossom.jpg headshot.jpg
+
+Then refresh your browser!
+
+## Troubleshooting
+
+- Make sure the file is named exactly: headshot.jpg (lowercase)
+- The file should be in: ~/Desktop/growthx-portfolio/public/
+- Supported formats: .jpg, .jpeg, .png, .webp
+- After adding, refresh your browser (Command + R)
+
+## Can't see the image folder?
+
+The 'public' folder is at:
+/Users/misakifunada/Desktop/growthx-portfolio/public
+
+Once you add headshot.jpg there, it will automatically appear in the circle!

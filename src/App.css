@@ -1,0 +1,9 @@
+/* Minimal CSS - most styling handled by Tailwind */
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
+}
