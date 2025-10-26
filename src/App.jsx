@@ -904,7 +904,7 @@ function App() {
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-8">
               <span className="badge">05</span>
-              <h2 className="text-3xl md:text-4xl">Work Sample (Vibe-Coded Internal Tool)</h2>
+              <h2 className="text-3xl md:text-4xl">Work Sample</h2>
             </div>
             <p className="text-base text-gray-600 mb-8 max-w-3xl">
               TypeScript app to turn CSV files into customer-ready charts with deeper analysis
