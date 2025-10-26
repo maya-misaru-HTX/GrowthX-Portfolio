@@ -167,60 +167,70 @@ function App() {
       {/* Sticky Navigation Header - Option 3: Animated Underline with Active State */}
       <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-md">
         <nav className="container-custom">
-          <div className="flex items-center justify-center gap-8 py-4">
+          <div className="flex items-center justify-between py-4">
+            <div className="flex items-center gap-8">
+              <a
+                href="#about-me"
+                className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
+              >
+                About me
+                <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
+                  activeSection === 'about-me' ? 'w-full' : 'w-0 group-hover:w-full'
+                }`}></span>
+              </a>
+              <a
+                href="#why-growthx"
+                className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
+              >
+                Why GrowthX?
+                <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
+                  activeSection === 'why-growthx' ? 'w-full' : 'w-0 group-hover:w-full'
+                }`}></span>
+              </a>
+              <a
+                href="#customer-health"
+                className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
+              >
+                Customer Health
+                <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
+                  activeSection === 'customer-health' ? 'w-full' : 'w-0 group-hover:w-full'
+                }`}></span>
+              </a>
+              <a
+                href="#data-forecasting"
+                className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
+              >
+                Data & Forecasting
+                <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
+                  activeSection === 'data-forecasting' ? 'w-full' : 'w-0 group-hover:w-full'
+                }`}></span>
+              </a>
+              <a
+                href="#enablement"
+                className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
+              >
+                Enablement
+                <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
+                  activeSection === 'enablement' ? 'w-full' : 'w-0 group-hover:w-full'
+                }`}></span>
+              </a>
+              <a
+                href="#work-sample"
+                className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
+              >
+                Work Sample
+                <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
+                  activeSection === 'work-sample' ? 'w-full' : 'w-0 group-hover:w-full'
+                }`}></span>
+              </a>
+            </div>
             <a
-              href="#about-me"
-              className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
+              href="/Misaki-Funada_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2 bg-[#fccc00] text-gray-900 font-semibold rounded-full hover:bg-[#d9a800] transition-all duration-300 hover:shadow-lg"
             >
-              About me
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
-                activeSection === 'about-me' ? 'w-full' : 'w-0 group-hover:w-full'
-              }`}></span>
-            </a>
-            <a
-              href="#why-growthx"
-              className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
-            >
-              Why GrowthX?
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
-                activeSection === 'why-growthx' ? 'w-full' : 'w-0 group-hover:w-full'
-              }`}></span>
-            </a>
-            <a
-              href="#customer-health"
-              className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
-            >
-              Customer Health
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
-                activeSection === 'customer-health' ? 'w-full' : 'w-0 group-hover:w-full'
-              }`}></span>
-            </a>
-            <a
-              href="#data-forecasting"
-              className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
-            >
-              Data & Forecasting
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
-                activeSection === 'data-forecasting' ? 'w-full' : 'w-0 group-hover:w-full'
-              }`}></span>
-            </a>
-            <a
-              href="#enablement"
-              className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
-            >
-              Enablement
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
-                activeSection === 'enablement' ? 'w-full' : 'w-0 group-hover:w-full'
-              }`}></span>
-            </a>
-            <a
-              href="#work-sample"
-              className="relative text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors pb-1 group"
-            >
-              Work Sample
-              <span className={`absolute bottom-0 left-0 h-0.5 bg-[#fccc00] transition-all duration-300 ${
-                activeSection === 'work-sample' ? 'w-full' : 'w-0 group-hover:w-full'
-              }`}></span>
+              Resume
             </a>
           </div>
         </nav>
